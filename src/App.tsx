@@ -35,7 +35,7 @@ function App() {
   }
 
   const stop = (midiNum: number) => {
-    sf.noteOn(midiNum);
+    sf.noteOff(midiNum);
   }
 
   return (
